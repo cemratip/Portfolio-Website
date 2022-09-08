@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.message {
+    font-family: 'Anonymous Pro', monospace;
+    color: #C5C5C5;
+    font-size: 40px;
+    text-align: center;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.projectItems {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 22px;
+    text-align: center;
+    color: #C5C5C5;
+}
+
+.grid-item:hover {
+    color: #EA4C89;
+    fill: #EA4C89;
+}
+
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 0.5s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from{width: 0;}
+    to{width: 20.5em;}
+}
+@keyframes blinkTextCursor {
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+}
+
+.anim-typewriter-portfolio {
+    animation: typewriter-portfolio 1.5s steps(14) 0.5s 1 normal both,
+    blinkTextCursor-portfolio 500ms steps(14) infinite normal;
+}
+
+@keyframes typewriter-portfolio {
+    from{width: 0;}
+    to{width: 5.25em;}
+}
+@keyframes blinkTextCursor-portfolio {
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+}
+
+.viewBtn {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    margin: auto;
+    padding: 10px 16px;
+    transition: color 100ms;
+}
+
+.viewBtn:hover,
+.viewBtn:focus {
+    background-color: #F082AC;
+}
