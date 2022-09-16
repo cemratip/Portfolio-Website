@@ -16,7 +16,7 @@ export default function Main() {
             setTimeOfDay('afternoon');
         }
         else {
-            setTimeOfDay('afternoon');
+            setTimeOfDay('evening');
         }
     }, [])
 
