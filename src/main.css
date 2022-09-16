@@ -12,6 +12,16 @@
     overflow: hidden;
 }
 
+.small-message {
+    font-family: 'Anonymous Pro', monospace;
+    color: #C5C5C5;
+    font-size: 35px;
+    text-align: center;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .projectItems {
     font-family: 'Anonymous Pro', monospace;
     font-size: 22px;
@@ -48,20 +58,6 @@
     to{width: 5.25em;}
 }
 @keyframes blinkTextCursor-portfolio {
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
-}
-
-.anim-typewriter-small-portfolio {
-    animation: typewriter-portfolio 1.5s steps(14) 0.5s 1 normal both,
-    blinkTextCursor-portfolio 500ms steps(14) infinite normal;
-}
-
-@keyframes typewriter-small-portfolio {
-    from{width: 0;}
-    to{width: 6em;}
-}
-@keyframes blinkTextCursor-small-portfolio {
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
 }
