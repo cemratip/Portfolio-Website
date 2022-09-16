@@ -51,16 +51,32 @@
 
 
 
-.anim-typewriter-morning-evening {
-    animation: typewriter-morning-evening 4s steps(44) 0.5s 1 normal both,
-    blinkTextCursor-morning-evening 500ms steps(44) infinite normal;
+.anim-typewriter-morning-evening-small {
+    animation: typewriter-morning-evening-small 4s steps(44) 0.5s 1 normal both,
+    blinkTextCursor-morning-evening-small 500ms steps(44) infinite normal;
 }
 
-@keyframes typewriter-morning-evening {
+@keyframes typewriter-morning-evening-small {
     from{width: 0;}
     to{width: 13.2em;}
 }
-@keyframes blinkTextCursor-morning-evening {
+@keyframes blinkTextCursor-morning-evening-small {
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+}
+
+
+
+.anim-typewriter-morning-evening-mediumlarge {
+    animation: typewriter-morning-evening-mediumlarge 4s steps(44) 0.5s 1 normal both,
+    blinkTextCursor-morning-evening-mediumlarge 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter-morning-evening-mediumlarge {
+    from{width: 0;}
+    to{width: 12.5em;}
+}
+@keyframes blinkTextCursor-morning-evening-mediumlarge {
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
 }
