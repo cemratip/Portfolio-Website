@@ -58,7 +58,7 @@
 
 @keyframes typewriter-morning-evening {
     from{width: 0;}
-    to{width: 13.1em;}
+    to{width: 13.2em;}
 }
 @keyframes blinkTextCursor-morning-evening {
     from{border-right-color: rgba(255,255,255,.75);}
