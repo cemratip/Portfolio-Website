@@ -52,6 +52,20 @@
     to{border-right-color: transparent;}
 }
 
+.anim-typewriter-small-portfolio {
+    animation: typewriter-portfolio 1.5s steps(14) 0.5s 1 normal both,
+    blinkTextCursor-portfolio 500ms steps(14) infinite normal;
+}
+
+@keyframes typewriter-small-portfolio {
+    from{width: 0;}
+    to{width: 6em;}
+}
+@keyframes blinkTextCursor-small-portfolio {
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+}
+
 .viewBtn {
     background-color: #EA4C89;
     border-radius: 8px;
