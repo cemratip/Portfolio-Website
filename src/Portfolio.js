@@ -62,7 +62,7 @@ export default function Portfolio() {
                     for (let x = 0; x < links.length; x++) {
                         const thirdParty = Object.keys(links[x]);
                         const thirdPartyLink = Object.values(links[x]);
-                        thirdPartyButtons.push(<a className='border-2 border-[#EA4C89] bg-[#EA4C89] text-white rounded-md p-2' href={thirdPartyLink}>{thirdParty}</a>);
+                        thirdPartyButtons.push(<a className='border-2 border-[#EA4C89] bg-[#EA4C89] text-white rounded-md p-2' href={thirdPartyLink} target='_blank'>{thirdParty}</a>);
                     }
 
                     const details = {
