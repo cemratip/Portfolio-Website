@@ -6,7 +6,7 @@ export default function Main() {
     const navigate = useNavigate();
 
     return (
-        <div className='h-screen flex flex-col space-y-7 justify-center items-center'>
+        <div className='min-h-screen flex flex-col space-y-7 justify-center items-center'>
             <p className='message anim-typewriter'>Hi, I'm Cem. Welcome to my portfolio.</p>
             <div className='space-x-4'>
                 <button className='viewBtn'><a href={cv}>View CV</a></button>

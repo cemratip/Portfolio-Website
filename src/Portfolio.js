@@ -1,6 +1,7 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState} from 'react';
 import axios from 'axios';
-import Project from "./Project";
+import Project from './Project';
+import androidstudio from './icons/androidstudio.png';
 import awsec2 from './icons/awsec2.png';
 import awslambda from './icons/awslambda.png';
 import awsrds from './icons/awsrds.png';
@@ -24,6 +25,7 @@ export default function Portfolio() {
     const projects = [];
 
     const skillsDict = {
+        'androidstudio': androidstudio,
         'awsec2': awsec2,
         'awslambda': awslambda,
         'awsrds': awsrds,
@@ -81,9 +83,9 @@ export default function Portfolio() {
     }, [getAllProjectsLink])
 
     return (
-        <div className='h-screen flex flex-col items-center justify-center space-y-36'>
+        <div className='min-h-screen flex flex-col items-center pt-48 space-y-36'>
             <p className='message anim-typewriter-portfolio'>Portfolio</p>
-            <div className='grid gap-11 grid-cols-3 h-[750px]'>
+            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-11'>
                 {projectsList}
             </div>
         </div>
