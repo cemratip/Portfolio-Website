@@ -42,7 +42,7 @@
 
 @keyframes typewriter-afternoon {
     from{width: 0;}
-    to{width: 14.2em;}
+    to{width: 14.5em;}
 }
 @keyframes blinkTextCursor-afternoon {
     from{border-right-color: rgba(255,255,255,.75);}
