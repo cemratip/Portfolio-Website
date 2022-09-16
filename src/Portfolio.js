@@ -62,6 +62,7 @@ export default function Portfolio() {
                     for (let x = 0; x < links.length; x++) {
                         const thirdParty = Object.keys(links[x]);
                         const thirdPartyLink = Object.values(links[x]);
+                        // eslint-disable-next-line
                         thirdPartyButtons.push(<a className='border-2 border-[#EA4C89] bg-[#EA4C89] text-white rounded-md p-2' href={thirdPartyLink} target='_blank'>{thirdParty}</a>);
                     }
 
@@ -85,7 +86,7 @@ export default function Portfolio() {
     return (
         <div className='min-h-screen flex flex-col items-center pt-48 space-y-36'>
             <p className='message anim-typewriter-portfolio'>Portfolio</p>
-            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-11'>
+            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-11'>
                 {projectsList}
             </div>
         </div>
