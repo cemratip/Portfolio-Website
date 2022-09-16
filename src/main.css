@@ -39,8 +39,8 @@
 }
 
 .anim-typewriter-small-portfolio {
-    animation: typewriter-portfolio 1.5s steps(14) 0.5s 1 normal both,
-    blinkTextCursor-portfolio 500ms steps(14) infinite normal;
+    animation: typewriter-small-portfolio 1.5s steps(14) 0.5s 1 normal both,
+    blinkTextCursor-small-portfolio 500ms steps(14) infinite normal;
 }
 
 @keyframes typewriter-small-portfolio {
