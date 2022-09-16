@@ -23,10 +23,10 @@ export default function Main() {
     return (
         <div className='min-h-screen flex flex-col space-y-7 justify-center items-center'>
             {timeOfDay==='morning' | timeOfDay==='evening' &&
-                <p className='mainMessage anim-typewriter-morning-evening'>Good {timeOfDay}, I'm Cem.</p>
+                <p className='mainMessage anim-typewriter-morning-evening text-[25px] md:text-[40px] lg:text-[40px]'>Good {timeOfDay}, I'm Cem.</p>
             }
             {timeOfDay==='afternoon' &&
-                <p className='mainMessage anim-typewriter-afternoon'>Good {timeOfDay}, I'm Cem.</p>
+                <p className='mainMessage anim-typewriter-afternoon text-[25px] md:text-[40px] lg:text-[40px]'>Good {timeOfDay}, I'm Cem.</p>
             }
             <div className='space-x-4'>
                 <button className='viewBtn'><a href={cv}>View CV</a></button>
