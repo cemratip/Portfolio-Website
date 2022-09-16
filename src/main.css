@@ -12,6 +12,16 @@
     overflow: hidden;
 }
 
+.mainMessage {
+    font-family: 'Anonymous Pro', monospace;
+    color: #C5C5C5;
+    font-size: 30px;
+    text-align: center;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .projectItems {
     font-family: 'Anonymous Pro', monospace;
     font-size: 22px;
@@ -24,19 +34,39 @@
     fill: #EA4C89;
 }
 
-.anim-typewriter {
-    animation: typewriter 4s steps(44) 0.5s 1 normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
+
+
+.anim-typewriter-afternoon {
+    animation: typewriter-afternoon 4s steps(44) 0.5s 1 normal both,
+    blinkTextCursor-afternoon 500ms steps(44) infinite normal;
 }
 
-@keyframes typewriter {
+@keyframes typewriter-afternoon {
     from{width: 0;}
-    to{width: 20.5em;}
+    to{width: 13.5em;}
 }
-@keyframes blinkTextCursor {
+@keyframes blinkTextCursor-afternoon {
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
 }
+
+
+
+.anim-typewriter-morning-evening {
+    animation: typewriter-morning-evening 4s steps(44) 0.5s 1 normal both,
+    blinkTextCursor-morning-evening 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter-morning-evening {
+    from{width: 0;}
+    to{width: 12.5em;}
+}
+@keyframes blinkTextCursor-morning-evening {
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+}
+
+
 
 .anim-typewriter-portfolio {
     animation: typewriter-portfolio 1.5s steps(14) 0.5s 1 normal both,
@@ -51,6 +81,9 @@
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
 }
+
+
+
 
 .viewBtn {
     background-color: #EA4C89;
