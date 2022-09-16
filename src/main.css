@@ -12,16 +12,6 @@
     overflow: hidden;
 }
 
-.small-message {
-    font-family: 'Anonymous Pro', monospace;
-    color: #C5C5C5;
-    font-size: 20px;
-    text-align: center;
-    border-right: 2px solid rgba(255,255,255,.75);
-    white-space: nowrap;
-    overflow: hidden;
-}
-
 .projectItems {
     font-family: 'Anonymous Pro', monospace;
     font-size: 22px;
@@ -55,7 +45,7 @@
 
 @keyframes typewriter-portfolio {
     from{width: 0;}
-    to{width: 5.25em;}
+    to{width: 6em;}
 }
 @keyframes blinkTextCursor-portfolio {
     from{border-right-color: rgba(255,255,255,.75);}

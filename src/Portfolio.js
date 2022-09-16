@@ -85,7 +85,7 @@ export default function Portfolio() {
 
     return (
         <div className='min-h-screen flex flex-col items-center pt-48 space-y-36'>
-            <p className='small-message md:message lg:message anim-typewriter-portfolio'>Portfolio</p>
+            <p className='message anim-typewriter-portfolio'>Portfolio</p>
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-11'>
                 {projectsList}
             </div>
