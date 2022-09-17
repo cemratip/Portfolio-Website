@@ -88,9 +88,7 @@ export default function Portfolio() {
     return (
         <div className='min-h-screen flex flex-col items-center pt-48 space-y-36'>
             <p className='message anim-typewriter-portfolio'>Portfolio</p>
-            {loaded &&
-
-
+            {!loaded &&
                 <div className="container">
                     <svg className="machine" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 645 526">
                         <defs/>
@@ -120,10 +118,8 @@ export default function Portfolio() {
                         </g>
                     </svg>
                 </div>
-
-
             }
-            {!loaded &&
+            {loaded &&
                 <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-11'>
                     {projectsList}
                 </div>
