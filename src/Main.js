@@ -26,7 +26,7 @@ export default function Main() {
                 <p className='mainMessage anim-typewriter-MorningEvening text-[25px] md:text-[50px] lg:text-[50px]'>Good {timeOfDay}, I'm Cem.</p>
             }
             {timeOfDay==='afternoon' &&
-                <p className='mainMessage anim-typewriter-afternoon text-[20px] md:text-[40px] lg:text-[40px]'>Good {timeOfDay}, I'm Cem.</p>
+                <p className='mainMessage anim-typewriter-afternoon text-[20px] md:text-[50px] lg:text-[50px]'>Good {timeOfDay}, I'm Cem.</p>
             }
             <div className='space-x-4'>
                 <button className='viewBtn'><a href={cv}>View CV</a></button>
