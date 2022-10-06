@@ -11,6 +11,7 @@ import css from './icons/css.png';
 import html from './icons/html.png';
 import java from './icons/java.png';
 import js from './icons/js.png';
+import typescript from './icons/typescript.png';
 import mysql from './icons/mysql.png';
 import nest from './icons/nest.png';
 import nodejs from './icons/nodejs.png';
@@ -37,6 +38,7 @@ export default function Portfolio() {
         'html': html,
         'java': java,
         'js': js,
+        'typescript': typescript,
         'mysql': mysql,
         'nest': nest,
         'nodejs': nodejs,
