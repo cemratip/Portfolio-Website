@@ -5,6 +5,7 @@ import androidstudio from './icons/androidstudio.png';
 import awsec2 from './icons/awsec2.png';
 import awslambda from './icons/awslambda.png';
 import awsrds from './icons/awsrds.png';
+import awss3 from './icons/awss3.png';
 import csharp from './icons/csharp.png';
 import css from './icons/css.png';
 import html from './icons/html.png';
@@ -30,6 +31,7 @@ export default function Portfolio() {
         'awsec2': awsec2,
         'awslambda': awslambda,
         'awsrds': awsrds,
+        'awss3': awss3,
         'csharp': csharp,
         'css': css,
         'html': html,
