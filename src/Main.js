@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import './main.css';
-import cv from './Cem Ratip CV.pdf';
+// import cv from './Cem Ratip CV.pdf';
 import {useEffect, useState} from "react";
 
 export default function Main() {
@@ -29,7 +29,7 @@ export default function Main() {
                 <p className='mainMessage anim-typewriter-afternoon text-[20px] md:text-[50px] lg:text-[50px]'>Good {timeOfDay}, I'm Cem.</p>
             }
             <div className='space-x-4'>
-                <button className='viewBtn'><a href={cv}>View CV</a></button>
+                <button className='viewBtn'><a>View CV</a></button>
                 <button className='viewBtn' onClick={()=>navigate('/portfolio')}>View Portfolio</button>
             </div>
         </div>
